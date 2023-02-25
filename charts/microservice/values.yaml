@@ -1,0 +1,9 @@
+microservice:
+  name: health-svc
+  port: 3000
+
+  image:
+    repository: xencodes/health-svc
+    tag: main
+
+replicaCount: 1

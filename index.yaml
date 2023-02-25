@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  microservice:
+    - apiVersion: v2
+      appVersion: 1.0.0
+      created: '2023-02-25T15:24:27.269033+05:30'
+      digest: 84b7edf54bd948948c81941475b09a0c88de7fe8a6c5d9ade0909fea71c13247
+      name: microservice
+      urls:
+        - https://botmate.github.com/helm/microservice-1.0.0.tgz
+      version: 1.0.0
+generated: '2023-02-25T15:24:27.26822+05:30'
