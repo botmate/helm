@@ -2,27 +2,27 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: {{.Values.microservice.name}}
+  name: {{.Values.name}}
 
 spec:
   replicas: {{.Values.replicaCount}}
 
   selector:
     matchLabels:
-      microservice: {{.Values.microservice.name }}
+      microservice: {{.Values.name }}
 
   template:
     metadata:
       labels:
-        microservice: {{.Values.microservice.name }}
+        microservice: {{.Values.name }}
 
     spec:
       containers:
-        - name: {{.Values.microservice.name }}
-          image: '{{.Values.microservice.image.repository}}:{{.Values.microservice.image.tag}}'
+        - name: {{.Values.name }}
+          image: '{{.Values.image.repository}}:{{.Values.image.tag}}'
           imagePullPolicy: Always
           ports:
-            - containerPort: {{.Values.microservice.port}}
+            - containerPort: {{.Values.port}}
           env:
             - name: NODE_ENV
               value: production
