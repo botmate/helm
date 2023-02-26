@@ -17,12 +17,11 @@ spec:
         microservice: {{.Values.name }}
 
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
         - name: {{.Values.name }}
           image: '{{.Values.image.repository}}:{{.Values.image.tag}}'
-          imagePullPolicy: Always
-          imagePullSecrets:
-            - name: regcred
           ports:
             - containerPort: {{.Values.port}}
           env:
