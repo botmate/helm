@@ -1,20 +1,28 @@
 apiVersion: v1
 entries:
   microservice:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: '2023-02-25T15:41:42.85301+05:30'
-      digest: d4f77f76f6cf4715400a8e56773e9d8d1ccd13dad7d066a08d6cd86a3507884b
-      name: microservice
-      urls:
-        - https://botmate.github.io/helm/microservice-1.0.1.tgz
-      version: 1.0.1
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: '2023-02-25T15:41:42.852859+05:30'
-      digest: 84b7edf54bd948948c81941475b09a0c88de7fe8a6c5d9ade0909fea71c13247
-      name: microservice
-      urls:
-        - https://botmate.github.io/helm/microservice-1.0.0.tgz
-      version: 1.0.0
-generated: '2023-02-25T15:41:42.852257+05:30'
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-26T08:26:05.700847+05:30"
+    digest: 85fd38bd34dbc42832eeff4b9443bc485a2533d62b486c475974f5b53ecd9128
+    name: microservice
+    urls:
+    - https://botmate.github.com/helm/microservice-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-26T08:26:05.700583+05:30"
+    digest: d4f77f76f6cf4715400a8e56773e9d8d1ccd13dad7d066a08d6cd86a3507884b
+    name: microservice
+    urls:
+    - https://botmate.github.com/helm/microservice-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-02-26T08:26:05.700295+05:30"
+    digest: 84b7edf54bd948948c81941475b09a0c88de7fe8a6c5d9ade0909fea71c13247
+    name: microservice
+    urls:
+    - https://botmate.github.com/helm/microservice-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-02-26T08:26:05.699507+05:30"
