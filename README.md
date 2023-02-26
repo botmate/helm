@@ -10,9 +10,9 @@ Make changes in the templates. Make sure to update the `appVersion` field in the
 
 ### Step 2: Update the chart version
 
-In the `Chart.yaml` file, update the `version` field.
-Run `helm lint` to make sure the chart is valid.
-Run `helm package` to package the chart.
+- In the `Chart.yaml` file, update the `version` field.
+- Run `helm lint` to make sure the chart is valid.
+- Run `helm package` to package the chart.
 
 ### Step 3: Update the index
 
